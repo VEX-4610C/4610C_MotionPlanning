@@ -26,7 +26,7 @@ public:
         std::string toString();
     };
     std::vector<Segment> segments;
-    bool inverted_y = 0;
+    bool inverted_y = false;
     explicit Trajectory(int length);
     explicit Trajectory(std::vector<Segment> segments);
     void setInvertedY(bool setting);
